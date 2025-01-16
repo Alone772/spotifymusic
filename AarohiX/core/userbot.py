@@ -54,8 +54,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("LOVE_FEELINGS_WILL1")
-                await self.one.join_chat("LOVE_FEELINGS_WILL1")
+                await self.one.join_chat("tmm_heroku_world")
+                await self.one.join_chat("tmm_support_chat")
             except:
                 pass
             assistants.append(1)
